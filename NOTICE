@@ -1,0 +1,10 @@
+Swift-CSV
+Copyright 2026 Thorsten Fuchs
+
+Swift-CSV is licensed under the Apache License, Version 2.0.
+See LICENSE in the root of this repository.
+
+Tests/CSVJSONTests/Fixtures/csv-spectrum contains test cases copied from
+csv-spectrum (https://github.com/max-mapper/csv-spectrum), version 2.0.0,
+which is distributed under the BSD 2-Clause License. See
+Tests/CSVJSONTests/Fixtures/csv-spectrum/LICENSE.
