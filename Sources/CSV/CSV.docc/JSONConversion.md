@@ -5,7 +5,7 @@ Turn records into Swift-JSON objects with the optional `CSVJSON` module.
 ## Overview
 
 The `CSVJSON` product depends on [Swift-JSON](https://github.com/ThorFuchs/Swift-JSON)
-1.9.0. It adds two entry points:
+1.9.0..<1.11.0 (tested with 1.9.0 and 1.10.0). SwiftPM resolves it at the package level, even for a consumer that uses only `CSV`. It adds two entry points:
 
 ```swift
 import CSV
