@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "CSVJSON", targets: ["CSVJSON"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ThorFuchs/Swift-JSON.git", exact: "1.9.0"),
+        .package(url: "https://github.com/ThorFuchs/Swift-JSON.git", "1.9.0"..<"1.11.0"),
     ],
     targets: [
         .target(name: "CSV"),

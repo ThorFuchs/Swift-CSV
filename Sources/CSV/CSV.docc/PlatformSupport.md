@@ -11,8 +11,9 @@ Where Swift-CSV runs and how each platform is tested.
 | Linux x86_64 and arm64 | supported | `swift test` (debug and release), `swift:6.4.2` container |
 | WebAssembly (`wasm32-unknown-wasip1`) | supported | `swift test` (debug and release) under WasmKit, Swift 6.4.2 WASM SDK |
 
-The Apple deployment minimums follow Swift-JSON 1.9.0, which the `CSVJSON`
-product depends on. Linux and WASI have no SwiftPM platform entry. Swift 6.4 or later is required, in Swift 6 language mode.
+The Apple deployment minimums remain macOS 27 and iOS 27. SwiftPM resolves Swift-JSON
+at the package level; the `CSVJSON` product uses it. Linux and WASI have no SwiftPM
+platform entry. Swift 6.4 or later is required, in Swift 6 language mode.
 
 The `CSV` module uses only the Swift standard library; `CSVJSON` adds Swift-JSON's `JSON`
 module. Neither has Foundation, C code or threads, so they behave the same on every
